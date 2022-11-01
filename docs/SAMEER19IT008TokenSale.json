@@ -47,7 +47,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -60,7 +61,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -73,7 +75,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -86,14 +89,16 @@
       "name": "buyTokens",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
       "name": "endSale",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract SAMEER19IT008\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenPrice\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_buyer\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"Sell\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_numberOfTokens\",\"type\":\"uint256\"}],\"name\":\"buyTokens\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"endSale\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tokenContract\",\"outputs\":[{\"internalType\":\"contract SAMEER19IT008\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tokenPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tokensSold\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SAMEER19IT008TokenSale.sol\":\"SAMEER19IT008TokenSale\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SAMEER19IT008.sol\":{\"keccak256\":\"0x580aea3c23fea18af0fe52ce612c344252ead5ed990564de91868f5c973d7c4d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://d8a1b017de46ff92eb25882264ca630c1ddb39da261da0f98c404b78adf4b7a2\",\"dweb:/ipfs/QmTbW7roRqrtqeLzk1hjXGxWdKSHRsMjVnQ2eNfBmSVpop\"]},\"project:/contracts/SAMEER19IT008TokenSale.sol\":{\"keccak256\":\"0x0aa4f1d819986d9e280c7dca3488ff1b1237832e4fdb6733453005059591a84c\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://d382b5baf4ccd8bb942cdb72812fe1c2da9b44600c14a923640ac2e91a29e454\",\"dweb:/ipfs/QmU47trDaAaNAZvA74TS6P3sgh5sdS83dwhZkuZD69EA1i\"]}},\"version\":1}",
@@ -6012,12 +6017,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x289550A2C5Cc54416db013Fa81c1265061030fE3",
-      "transactionHash": "0x7e77be31c0ce9b248898ae41d2da913b441c97eca4fe2d39d4eb8e709d63d93c"
+      "address": "0x2f7Eb880DE5C7Ad81a1F03d72A762b58f12025bC",
+      "transactionHash": "0xb19770173017f43bd66652b70ca95029a1b8fc6550c54d21b7525453ebc56ef2"
     }
   },
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-11-01T14:01:20.109Z",
+  "updatedAt": "2022-11-01T16:12:12.122Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
